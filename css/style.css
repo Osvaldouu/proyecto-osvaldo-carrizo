@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100;1,400;1,600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F6D1E6;
+    font-family: 'Poppins', sans-serif;
+}
+/* -------encabezado---------- */
+header{
+    background-color: #FBFBFB;
+    justify-content: space-between;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    padding: 20px;
+}
+.nombre-empredimiento{
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: #db83b5;
+}
+.catalogos{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: 600;
+}
+a:hover{
+    color: rgb(163, 45, 134);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.nav img{
+    width: 4.5rem;
+    height: 4.5rem;
+}
+.nav{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+/*------------ anuncio ------------*/
+.anuncio{
+    background-color: rgba(0, 0, 0, 0.815);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 0.9em;
+    padding: 4px;
+}
+
+/* ---------marcas y texto---------- */
+main{
+    margin-top: 20px;
+    text-align: left;
+}
+.container{
+    max-width: 1250px;
+    padding: 15px;
+}
+main p{
+    margin-top: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 15px;
+}
+.nombre{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.marca{
+    margin-top: 40px;
+    padding: 100px;
+    height: 300px;
+    font-weight: 200;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.texto{
+    width: 38rem;
+}
+.marca-texto{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+
+/* ------------logos-------------- */
+
+footer{
+    background-color: #FBFBFB;
+    padding: 20px;
+    
+}
+.logos{
+    padding: 5px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.logo{
+    width: 30px;
+}
+.mis-redes{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+/* relleno */
+
+.datos-container{
+    /* padding: 100px; */
+    margin: 80px 10px;
+    font-weight: bolder;
+}
+
+.produ{
+    padding: 20px;
+}
+.gatitos{
+    margin: 10px;
+    padding: 10px;
+    border: 5px solid black;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.gatitos p{
+    padding: 20px;
+}
+.gatos{
+    width: 500px;
+    height: 300px;
+}
