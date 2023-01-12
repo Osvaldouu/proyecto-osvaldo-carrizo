@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <title>AmelúClothes Indumentaria</title>
 </head>
@@ -17,46 +18,53 @@
             <img src="../img/logoedit.jpg" alt="cerdito con una flor">
         </div>
 
-        <nav>
-            <ul class="catalogos">
-                <li>
-                    <a href="../index.html">INICIO</a>
-                </li>
-                <li>
-                    <a href="conoceme.html">CONOCEME</a>
-                </li>
-                <li>
-                    <a href="contacto.html">CONTACTO</a>
-                </li>
-                <li>
-                    <a href="medio de pago.html">MEDIO DE PAGO</a>
-                </li>
-                <li>
-                    <a href="productos.html">PRODUCTOS</a>
-                </li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" href="../index.html">Inicio</a>
+                        <a class="nav-link active" href="conoceme.html">Conoceme</a>
+                        <a class="nav-link active" href="contacto.html">Contacto</a>
+                        <a class="nav-link active" href="medio de pago.html">Medio de pago</a>
+                        <a class="nav-link active" href="productos.html">Productos</a>
+                    </div>
+                </div>
+            </div>
         </nav>
     </header>
 
     <section class="produ">
-        <div class="gatitos">
-            <img class="gatos" src="../img/gatitos-cesta_0.jpg" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius tempore fuga doloremque. Laudantium maxime voluptas vel quod obcaecati soluta, reiciendis quae, dolores doloremque fuga dolor iure modi incidunt doloribus natus!</p>
-        </div>
-        <div class="gatitos">
-            <img class="gatos" src="../img/photo-1591871937631-2f64059d234f.jpg" alt="">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita, minus ad. Nulla corrupti odit animi quasi inventore, similique sint ut hic voluptatum sed aspernatur debitis suscipit, unde tenetur, ullam nobis.</p>
-        </div>
+        
     </section>
 
     <footer>
-        <div class="logos">
-            <a href="https://www.facebook.com/lud.bustamante" target="_blank"><img class="logo" src="../img/icons8-facebook.svg" alt=""></a>
-            <a href="https://www.instagram.com/ludbustamante312" target="_blank"><img class="logo" src="../img/icons8-instagram.svg" alt=""></a>
-            <a href=""><img class="logo" src="../img/icons8-whatsapp.svg" alt=""></a>
+        <div class="pie-de-pagina">
+            <div class="grupo-1">
+                <div class="logos">
+                    <figure>
+                    <a href="#">
+                        <img src="../img/amelu logo.jpeg" alt="">
+                    </a>
+                    </figure>
+                </div>
+                <div class="textou">
+                    <p>Catamarca,Argentina</p>
+                    <p>ludbustamante312@gmail.com</p>
+                </div>
+                <div class="logos">
+                    <div class="red-social">
+                        <a href="https://www.facebook.com/lud.bustamante" target="_blank"><img class="logo" src="../img/icons8-facebook.svg" alt=""></a>
+                        <a href="https://www.instagram.com/ludbustamante312" target="_blank"><img class="logo" src="../img/icons8-instagram.svg" alt=""></a>
+                        <a href=""><img class="logo" src="../img/icons8-whatsapp.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     
 </body>
 </html>

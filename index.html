@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
     <title>AmelúClothes Indumentaria</title>
 </head>
@@ -17,55 +18,71 @@
             <h2 class="nombre-empredimiento">Amelú Clothes</h2>
             <img src="./img/logoedit.jpg" alt="cerdito con una flor">
         </div>
-
-        <nav>
-            <ul class="catalogos">
-                <li>
-                    <a href="./index.html">INICIO</a>
-                </li>
-                <li>
-                    <a href="./section/conoceme.html">CONOCEME</a>
-                </li>
-                <li>
-                    <a href="./section/contacto.html">CONTACTO</a>
-                </li>
-                <li>
-                    <a href="./section/medio de pago.html">MEDIO DE PAGO</a>
-                </li>
-                <li>
-                    <a href="./section/productos.html">PRODUCTOS</a>
-                </li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" href="index.html">Inicio</a>
+                        <a class="nav-link active" href="./section/conoceme.html">Conoceme</a>
+                        <a class="nav-link active" href="./section/contacto.html">Contacto</a>
+                        <a class="nav-link active" href="./section/medio de pago.html">Medio de pago</a>
+                        <a class="nav-link active" href="./section/productos.html">Productos</a>
+                    </div>
+                </div>
+            </div>
         </nav>
     </header>
-
-    <main class="container">
-        <div class="yo">
-            <h1 class="nombre">AmelúClothes Tienda de Ropa</h1>
-            <p>Hola, este es mi mini empremidiento, donde podran ver vendo ropa de hombres y mujeres.</p>
-            <p>Lorem ipsum dolor sit amet consectetur,adipisicing elit.Rem libero quasi maxime odit distinctio aspernatur optio,perferendis esse, earum voluptatibus minima atque ipsam possimus repudiandae voluptas sapiente rerum doloremque voluptates!</p>
-            <p>Lorem ipsum dolor sit amet consectetur,adipisicing elit.Adipisci dolore saepe corporis ratione eligendi repellendus temporibus repellat,dolor soluta officia quasi nobis consequatur,similique nemo quidem illo beatae quibusdam? Expedita.</p>
-        </div>
+    <main>
+        
     </main>
-
-    <section class="marca-texto">
-        <div class="marca">
-            <img src="./img/derfuria-logo-con-fondo.png" alt="logo de la marca derfuria">
-        </div>
-        <div class="texto">
-            <p>Lorem ipsum dolor sit amet consectetur,adipisicing elit.Adipisci dolore saepe corporis ratione eligendi repellendus temporibus repellat,dolor soluta officia quasi nobis consequatur,similique nemo quidem illo beatae quibusdam? Expedita.</p>
-            <p>Lorem ipsum dolor sit amet consectetur,adipisicing elit.Adipisci dolore saepe corporis ratione eligendi repellendus temporibus repellat,dolor soluta officia quasi nobis consequatur,similique nemo quidem illo beatae quibusdam? Expedita.</p>
+    <section>
+        <div class="cards row align-items-center text-center">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="card m-auto" style="width: 18rem;">
+                    <img src="./img/hombre1.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Hombres</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="card m-auto" style="width: 16rem;">
+                    <img src="./img/mujer1.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Mujeres</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
-
     <footer>
-        <div class="logos">
-            <a href="https://www.facebook.com/lud.bustamante" target="_blank"><img class="logo" src="./img/icons8-facebook.svg" alt=""></a>
-            <a href="https://www.instagram.com/ludbustamante312" target="_blank"><img class="logo" src="./img/icons8-instagram.svg" alt=""></a>
-            <a href=""><img class="logo" src="./img/icons8-whatsapp.svg" alt=""></a>
+        <div class="pie-de-pagina">
+            <div class="grupo-1">
+                <div class="logos">
+                    <figure>
+                    <a href="#">
+                        <img src="./img/amelu logo.jpeg" alt="">
+                    </a>
+                    </figure>
+                </div>
+                <div class="textou">
+                    <p>Catamarca,Argentina</p>
+                    <p>ludbustamante312@gmail.com</p>
+                </div>
+                <div class="logos">
+                    <div class="red-social">
+                        <a href="https://www.facebook.com/lud.bustamante" target="_blank"><img class="logo" src="./img/icons8-facebook.svg" alt=""></a>
+                        <a href="https://www.instagram.com/ludbustamante312" target="_blank"><img class="logo" src="./img/icons8-instagram.svg" alt=""></a>
+                        <a href=""><img class="logo" src="./img/icons8-whatsapp.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     
 </body>
 </html>

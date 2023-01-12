@@ -16,10 +16,7 @@ header{
     padding: 20px;
     align-items: center;
 }
-ul li{
-    list-style: none;
-    padding: 20px;
-}
+
 .nombre-empredimiento{
     color: black;
     text-decoration: underline;
@@ -55,7 +52,7 @@ a{
     font-family: 'Poppins', sans-serif;
     color: rgb(255, 255, 255);
     font-weight: 500;
-    font-size: 0.9em;
+    font-size: 0.8em;
     padding: 4px;
 }
 
@@ -100,54 +97,83 @@ main p{
 }
 
 
-/* ------------logos-------------- */
+/* ------------footer-------------- */
 
 footer{
     background-color: #FBFBFB;
     padding: 20px;
-    
+    margin-top: 30px
 }
-.logos{
-    padding: 5px;
+.pie-de-pagina{
     width: 100%;
+}
+.pie-de-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 0px 0px;
+}
+.pie-de-pagina .grupo-1 .logos figure{
+    width: 100%;
+    height: 100%;
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
 }
-.logo{
-    width: 30px;
+.pie-de-pagina .grupo-1 .logos figure img{
+    width: 150px;
 }
-.mis-redes{
-
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+.pie-de-pagina .grupo-1 .textou p{
+    margin-bottom: 10px;
 }
-
-/* relleno */
-
-.datos-container{
-    /* padding: 100px; */
-    margin: 80px 10px;
-    font-weight: bolder;
-}
-
-.produ{
-    padding: 20px;
-}
-.gatitos{
-    margin: 10px;
-    padding: 10px;
-    border: 5px solid black;
-    border-radius: 5%;
-    display: flex;
-    flex-direction: row;
+.pie-de-pagina .grupo-1 .red.social a{
+    display: block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    margin-right: 10px;
     text-align: center;
 }
-.gatitos p{
-    padding: 20px;
+.grupo-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.gatos{
-    width: 500px;
-    height: 300px;
+
+@media (max-width: 800px){
+    .pie-de-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+        }
+        .red.social{
+        display: flex;
+        justify-content: center;
+        }
+    }
+
+@media (max-width: 768px){
+    .cards{
+        display: flex;
+        gap: 20px;
+    }
+}
+
+/* conoceme */
+
+.datos-container{
+    margin: 40px 10px;
+}
+
+/* contacto */
+
+.dudas{
+    margin: 40px;
+    display: flex;
+    justify-content: center;
 }
