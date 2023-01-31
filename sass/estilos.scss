@@ -168,6 +168,8 @@ footer{
 
 .datos-container{
     margin: 40px 10px;
+    font-weight: 400;
+    text-transform: uppercase;
 }
 
 /* contacto */
@@ -177,3 +179,36 @@ footer{
     display: flex;
     justify-content: center;
 }
+
+/*medio de pago */
+
+.tarjetas{
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+}
+
+.tarjetas img{
+    height: 40px;
+
+}
+
+//-------productos------- // 
+
+.title-productos{
+    text-align: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.title-mujer{
+    text-align: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+
