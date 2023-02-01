@@ -9,7 +9,63 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-/* -------encabezado---------- */
+footer {
+  background-color: #FBFBFB;
+  padding: 20px;
+  margin-top: 30px;
+}
+footer .pie-de-pagina {
+  width: 100%;
+}
+footer .pie-de-pagina .grupo-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .pie-de-pagina .grupo-1 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  padding: 0px 0px;
+}
+footer .pie-de-pagina .grupo-1 .logos figure {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .pie-de-pagina .grupo-1 .logos figure img {
+  width: 150px;
+}
+footer .pie-de-pagina .grupo-1 .logos figure img p {
+  margin-bottom: 10px;
+}
+footer .pie-de-pagina .grupo-1 .red.social a {
+  display: block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  margin-right: 10px;
+  text-align: center;
+}
+@media (max-width: 800px) {
+  footer .pie-de-pagina .grupo-1 {
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    padding: 35px 0px;
+  }
+  footer .pie-de-pagina .red.social {
+    display: flex;
+    justify-content: center;
+  }
+}
+
 header {
   background-color: #FBFBFB;
   justify-content: space-between;
@@ -109,70 +165,6 @@ main p {
 }
 
 /* ------------footer-------------- */
-footer {
-  background-color: #FBFBFB;
-  padding: 20px;
-  margin-top: 30px;
-}
-
-.pie-de-pagina {
-  width: 100%;
-}
-
-.pie-de-pagina .grupo-1 {
-  width: 100%;
-  max-width: 1200px;
-  margin: auto;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 50px;
-  padding: 0px 0px;
-}
-
-.pie-de-pagina .grupo-1 .logos figure {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.pie-de-pagina .grupo-1 .logos figure img {
-  width: 150px;
-}
-
-.pie-de-pagina .grupo-1 .textou p {
-  margin-bottom: 10px;
-}
-
-.pie-de-pagina .grupo-1 .red.social a {
-  display: block;
-  text-decoration: none;
-  width: 45px;
-  height: 45px;
-  line-height: 45px;
-  margin-right: 10px;
-  text-align: center;
-}
-
-.grupo-1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-@media (max-width: 800px) {
-  .pie-de-pagina .grupo-1 {
-    width: 90%;
-    grid-template-columns: repeat(1, 1fr);
-    grid-gap: 30px;
-    padding: 35px 0px;
-  }
-  .red.social {
-    display: flex;
-    justify-content: center;
-  }
-}
 @media (max-width: 768px) {
   .cards {
     display: flex;
