@@ -45,12 +45,11 @@ a{
     color: rgb(255, 255, 255);
     font-weight: 500;
     font-size: 0.8em;
-    padding: 4px;
+    // padding: 3px;
 }
 
 /* ---------marcas y texto---------- */
 main{
-    margin-top: 20px;
     text-align: left;
 }
 .container{
@@ -58,11 +57,9 @@ main{
     padding: 15px;
 }
 main p{
-    margin-top: 4px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    margin-top: 15px;
 }
 .nombre{
     text-align: center;
@@ -88,25 +85,20 @@ main p{
     flex-direction: row-reverse;
 }
 
-
-/* ------------footer-------------- */
-
-
-@media (max-width: 768px){
-    .cards{
-        display: flex;
-        gap: 20px;
+//*** cards inicio ***  //
+.cards{
+    overflow: hidden;
+    transition: all 0.3s ease;
+    &:hover{
+        transform: translateY(-10px);
     }
 }
-
-/* conoceme */
-
-.datos-container{
-    margin: 40px 10px;
-    font-weight: 400;
-    text-transform: uppercase;
+.img-scale{
+    transition: all 0.3s ease;
+    &:hover{
+        transform: scale(0.8);
+    }
 }
-
 /* contacto */
 
 .dudas{
@@ -120,13 +112,15 @@ main p{
 .tarjetas{
     display: flex;
     justify-content: center;
-    padding: 2px;
+    padding: 20px;
+    margin-top: 30px;
 }
 
 .tarjetas img{
     height: 40px;
-
 }
+
+
 
 //-------productos------- // 
 

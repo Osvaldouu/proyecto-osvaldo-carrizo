@@ -41,9 +41,6 @@ footer .pie-de-pagina .grupo-1 .logos figure {
 footer .pie-de-pagina .grupo-1 .logos figure img {
   width: 150px;
 }
-footer .pie-de-pagina .grupo-1 .logos figure img p {
-  margin-bottom: 10px;
-}
 footer .pie-de-pagina .grupo-1 .red.social a {
   display: block;
   text-decoration: none;
@@ -116,12 +113,10 @@ a {
   color: rgb(255, 255, 255);
   font-weight: 500;
   font-size: 0.8em;
-  padding: 4px;
 }
 
 /* ---------marcas y texto---------- */
 main {
-  margin-top: 20px;
   text-align: left;
 }
 
@@ -131,11 +126,9 @@ main {
 }
 
 main p {
-  margin-top: 4px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  margin-top: 15px;
 }
 
 .nombre {
@@ -164,18 +157,19 @@ main p {
   flex-direction: row-reverse;
 }
 
-/* ------------footer-------------- */
-@media (max-width: 768px) {
-  .cards {
-    display: flex;
-    gap: 20px;
-  }
+.cards {
+  overflow: hidden;
+  transition: all 0.3s ease;
 }
-/* conoceme */
-.datos-container {
-  margin: 40px 10px;
-  font-weight: 400;
-  text-transform: uppercase;
+.cards:hover {
+  transform: translateY(-10px);
+}
+
+.img-scale {
+  transition: all 0.3s ease;
+}
+.img-scale:hover {
+  transform: scale(0.8);
 }
 
 /* contacto */
@@ -189,7 +183,8 @@ main p {
 .tarjetas {
   display: flex;
   justify-content: center;
-  padding: 2px;
+  padding: 20px;
+  margin-top: 30px;
 }
 
 .tarjetas img {
